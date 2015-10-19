@@ -1,0 +1,26 @@
+== README
+
+This is one sample application using devise, omniauth, omniauth-google-oauth2.
+
+=== Google API Setup
+  https://github.com/zquestz/omniauth-google-oauth2
+  https://console.developers.google.com
+
+  Google+ and Contacts API should be enabled
+
+  set below as redirect uri
+  http://localhost:3000/users/auth/google_oauth2/callback
+
+=== Related Gems
+  devise
+  omniauth
+  omniauth-google-oauth2
+
+=== domain specific
+  option hd can be used to specify users in specific domain can
+  sign in.
+
+=== more related links
+  https://github.com/plataformatec/devise
+  https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview
+  https://github.com/intridea/omniauth
